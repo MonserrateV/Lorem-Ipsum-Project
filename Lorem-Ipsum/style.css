@@ -1,0 +1,73 @@
+body{
+  background-color: #0B0A12;
+}
+h1{
+  color: lightgrey;
+  font-size: 5em;
+  text-align: center;
+  text-shadow: 2px 2px 5px blue;
+  text-decoration: underline;
+}
+
+div{
+  font-size: 2em;
+  line-height: 2em;
+   font-variant: small-caps;
+}
+div::before{
+  content: url("http://www.freewebheaders.com/wordpress/wp-content/gallery/artistic-abstract/colorful-smoke-artistic-abstract-web-header.jpg");
+  margin-left:5%;
+}
+.one{
+  
+  font-family: 'Asar', cursive, serif;
+  color: #D90B91;
+  font-weight: bold;
+ 
+}
+.one:hover{
+  color: #B2F50C;
+  
+}
+.two{
+  font-family: 'Merriweather', serif;
+  color: #FFAA0D;
+  
+}
+.two:hover{
+  color: #1C58C7;
+  
+}
+.two:first-line{
+   text-decoration: underline;
+}
+.three{
+  font-family: 'Lobster', cursive, sans-serif;
+  color: #1C58C7;
+  text-transform: capitalize;
+}
+.three:hover{
+  color: #FFAA0D;
+}
+.four{
+  font-family: 'Bitter', serif;
+  color: #B2F50C;
+}
+.four:hover{
+  color: #D90B91;
+}
+.five{
+  font-family: 'Stint Ultra Expanded', cursive,serif;
+  color: #FF1A1A;
+  font-weight: bold;
+}
+.five:hover{
+  color: #859C00;
+}
+p{
+  text-indent: 3%;
+}
+h5{
+  color: lightgrey;
+  text-align: center;
+}
